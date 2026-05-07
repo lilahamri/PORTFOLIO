@@ -5,7 +5,10 @@
       "title": "YOWL",
       "description": "Concevoir et développer une application sociale web (micro-contenu, liens, formats légers) en suivant une démarche professionnelle de Product Design : de l'identification des besoins utilisateur à la livraison d'un MVP fonctionnel.",
       "technologies": [
-        "GitHub"
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
       ],
       "github": "https://github.com/lilahamri/YOWL",
       "demo": "#"
@@ -15,7 +18,10 @@
       "title": "Hack_juice",
       "description": "Réaliser un audit de sécurité (pentest) sur l'application web vulnérable OWASP Juice Shop en exploitant un maximum de failles issues de l'OWASP Top 10. Chaque membre de l'équipe doit documenter plus de 10 challenges de difficulté 3+.",
       "technologies": [
-        "GitHub"
+        "OWASP Juice Shop",
+        "Burp Suite",
+        "SQLMap",
+        "Python"
       ],
       "github": "https://github.com/lilahamri/Hack_juice",
       "demo": "#"
@@ -25,7 +31,10 @@
       "title": "Tardis",
       "description": "Objectif : Nettoyer et analyser des données historiques de retards SNCF, puis développer un modèle de régression pour prédire la durée des retards, le tout intégré dans un dashboard interactif.",
       "technologies": [
-        "GitHub"
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Dash"
       ],
       "github": "https://github.com/lilahamri/Tardis",
       "demo": "#"
@@ -35,7 +44,10 @@
       "title": "NextBuy",
       "description": "Objectif : Analyser des millions de commandes clients pour extraire des insights business actionables (meilleures ventes, comportements d'achat, ré-achat) et construire des modèles prédictifs.",
       "technologies": [
-        "GitHub"
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Machine Learning"
       ],
       "github": "https://github.com/lilahamri/NextBuy",
       "demo": "#"
@@ -45,7 +57,10 @@
       "title": "Eliza",
       "description": " Créer un chatbot conversationnel sur une plateforme type Discord/Telegram, avec une vraie stratégie marketing (ROI, KPI, persona) et une évaluation éthique.",
       "technologies": [
-        "GitHub"
+        "Python",
+        "Discord.py",
+        "NLP",
+        "AI"
       ],
       "github": "https://github.com/lilahamri/Eliza",
       "demo": "#"
@@ -55,7 +70,10 @@
       "title": "Alice_in_wonderland",
       "description": "Développer un moteur NLP en ligne de commande qui transforme des livres bruts en « book cards » structurées (analyse lexicale, extraction de thèmes, reconnaissance d'entités, résumé automatique, similarité entre livres).",
       "technologies": [
-        "GitHub"
+        "Python",
+        "NLTK",
+        "SpaCy",
+        "NLP"
       ],
       "github": "https://github.com/lilahamri/Alice_in_wonderland",
       "demo": "#"

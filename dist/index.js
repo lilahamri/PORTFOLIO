@@ -54,7 +54,7 @@ ${message}`,
   app.get("*", (_req, res) => {
     res.sendFile(path.join(staticPath, "index.html"));
   });
-  const port = process.env.PORT || (process.env.NODE_ENV === "production" ? 3e3 : 3007);
+  const port = process.env.PORT || (process.env.NODE_ENV === "production" ? 3e3 : 3008);
   server.listen(port, () => {
     console.log(`Server running on http://localhost:${port}/`);
   });
