@@ -4,7 +4,6 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/PORTFOLIO/",  // ← AJOUTÉ : nom de ton repo en majuscules
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
