@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { toolsIcons, skillVariants, type ToolIcon } from './skillsData';
 
-export default function ToolsIconGrid(): JSX.Element {
+export default function ToolsIconGrid() {
   return (
     <motion.section
       variants={skillVariants.section}

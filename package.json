@@ -4,6 +4,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
+    "deploy": "gh-pages -d dist/public",
+    "predeploy": "npm run build",
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "dev:client": "vite --host",
     "dev:server": "tsx server/index.ts",

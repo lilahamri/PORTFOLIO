@@ -4,6 +4,7 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? "/PORTFOLIO/" : "/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -24,7 +25,7 @@ export default defineConfig({
     host: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:3007',
+        target: 'http://localhost:3008',
         changeOrigin: true,
       },
     },

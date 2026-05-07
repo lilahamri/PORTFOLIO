@@ -2,7 +2,7 @@ import TechTagCloud from './TechTagCloud.tsx';
 import SoftSkillCards from './SoftSkillCards.tsx';
 import ToolsIconGrid from './ToolsIconGrid.tsx';
 
-export default function SkillsSection(): JSX.Element {
+export default function SkillsSection() {
   return (
     <section id="skills" className="relative overflow-hidden bg-background py-32">
       <div className="container mx-auto px-4">

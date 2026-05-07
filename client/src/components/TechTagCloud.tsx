@@ -3,7 +3,7 @@ import { technicalSkills, skillVariants, type TechnicalSkill } from './skillsDat
 
 const buildFontSize = (weight: number): string => `${85 + (weight - 1) * 18}%`;
 
-export default function TechTagCloud(): JSX.Element {
+export default function TechTagCloud() {
   return (
     <motion.section
       variants={skillVariants.section}

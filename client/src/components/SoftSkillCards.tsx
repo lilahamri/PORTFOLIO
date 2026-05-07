@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { softSkills, skillVariants, type SoftSkill } from './skillsData';
 
-export default function SoftSkillCards(): JSX.Element {
+export default function SoftSkillCards() {
   return (
     <motion.section
       variants={skillVariants.section}
